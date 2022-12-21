@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gym-master/static/css/main.2fd464a8.css",
-    "main.js": "/react-gym-master/static/js/main.6f671498.js",
+    "main.js": "/react-gym-master/static/js/main.de9ae6a6.js",
     "static/media/after.jpg": "/react-gym-master/static/media/after.f6ca710241bc5497fdfe.jpg",
     "static/media/exercise2.jpg": "/react-gym-master/static/media/exercise2.cf71ad83ef9514f5bea9.jpg",
     "static/media/bgpic2.jpg": "/react-gym-master/static/media/bgpic2.574f697c23e4c4b335ff.jpg",
@@ -19,10 +19,10 @@
     "static/media/hamburger.svg": "/react-gym-master/static/media/hamburger.6c95a27622c6e775be733707084bb80c.svg",
     "static/media/hamburger-close.svg": "/react-gym-master/static/media/hamburger-close.7610df6f0876379271d6d7b1ed08b6f1.svg",
     "main.2fd464a8.css.map": "/react-gym-master/static/css/main.2fd464a8.css.map",
-    "main.6f671498.js.map": "/react-gym-master/static/js/main.6f671498.js.map"
+    "main.de9ae6a6.js.map": "/react-gym-master/static/js/main.de9ae6a6.js.map"
   },
   "entrypoints": [
     "static/css/main.2fd464a8.css",
-    "static/js/main.6f671498.js"
+    "static/js/main.de9ae6a6.js"
   ]
 }
