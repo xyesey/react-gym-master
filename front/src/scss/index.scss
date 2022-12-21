@@ -1,0 +1,154 @@
+@import "./_variables";
+
+body {
+  background-color: $black;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+*::-webkit-input-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+*:-moz-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #c0c0c0;
+  opacity: 1;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: $default-font;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#root {
+  height: 100%;
+}
+
+.select2-selection {
+  &__control {
+    cursor: pointer !important;
+    margin-bottom: 2rem;
+    border-radius: 10px !important;
+    min-height: 48px !important;
+    background-color: $white !important;
+    border-radius: 1px solid transparent !important;
+    font-size: 16px;
+    width: 100%;
+  }
+  &__placeholder {
+    text-align: start !important;
+    color: #fff !important;
+    margin-left: 6px !important;
+  }
+  &__menu {
+    background-color: $dark-blue !important;
+    border-radius: 10px !important;
+    &-list {
+      padding: 0 !important;
+    }
+    &-notice {
+      color: #fff !important;
+    }
+  }
+  &__option {
+    background-color: $dark-blue !important;
+    border-radius: 10px;
+    &--is-focused {
+      background-color: darken($dark-blue, 10%) !important;
+    }
+    &--is-selected {
+      background-color: $accent !important;
+      color: #000 !important;
+    }
+  }
+  &__indicator:hover {
+    color: $accent !important;
+  }
+  &__indicator {
+    color: #fff !important;
+  }
+  &__multi-value {
+    border-radius: 7px !important;
+  }
+  &__input {
+    color: #000 !important;
+  }
+}
+
+.select2-selection__single-value {
+  color: #fff !important;
+}
+
+.select2-selection__control--is-focused {
+  border-color: transparent !important;
+  box-shadow: 0 0 0 1px rgba($accent, 1) !important;
+}
+
+.dark-link {
+  text-align: right;
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: $dark-blue;
+  transition: color 0.3s ease;
+  &:hover {
+    color: $accent;
+  }
+}
+
+.wrapper-inner-page {
+  padding: 50px 90px;
+  text-align: center;
+  max-width: 560px;
+  width: 100%;
+  margin: 0 auto;
+}
