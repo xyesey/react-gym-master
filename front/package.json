@@ -1,5 +1,6 @@
 {
   "name": "front",
+  "homepage": "https://xyesey.github.io/react-gym-master",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.1",
     "classnames": "^2.3.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-query": "^3.39.2",
@@ -22,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

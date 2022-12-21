@@ -8,7 +8,7 @@ import { routes } from "./dataRoutes";
 function App() {
   const { isAuth } = useAuth();
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         {routes.map((route) => {
           if (route.auth && !isAuth) {
