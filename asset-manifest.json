@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fd464a8.css",
+    "main.js": "/static/js/main.ff4d0a3b.js",
+    "static/media/after.jpg": "/static/media/after.f6ca710241bc5497fdfe.jpg",
+    "static/media/exercise2.jpg": "/static/media/exercise2.cf71ad83ef9514f5bea9.jpg",
+    "static/media/bgpic2.jpg": "/static/media/bgpic2.574f697c23e4c4b335ff.jpg",
+    "static/media/profile.jpg": "/static/media/profile.29e9d82fd3ee06483457.jpg",
+    "static/media/reg.jpg": "/static/media/reg.8e0e1b71313014cbd42e.jpg",
+    "static/media/bg-pic.jpg": "/static/media/bg-pic.b26318fb279a34e79966.jpg",
+    "static/media/newwork2.jpg": "/static/media/newwork2.8235cdf095b82139b4ed.jpg",
+    "static/media/loader.gif": "/static/media/loader.4ccf66d6c90d5e390230.gif",
+    "static/media/user.svg": "/static/media/user.012b7ecf477c43924eae028368df76fd.svg",
+    "static/media/dumbbell.svg": "/static/media/dumbbell.e6c76319ad339a4aa50101db6a248c8a.svg",
+    "static/media/check-completed.svg": "/static/media/check-completed.72c32ebf1b28e4b5e99cc11859bb0c7f.svg",
+    "static/media/check.svg": "/static/media/check.80b63008842122f8ee45cab9694e37a7.svg",
+    "static/media/Arrow.svg": "/static/media/Arrow.fc08d4819c89f03754a07c1615bc3bda.svg",
+    "index.html": "/index.html",
+    "static/media/hamburger.svg": "/static/media/hamburger.6c95a27622c6e775be733707084bb80c.svg",
+    "static/media/hamburger-close.svg": "/static/media/hamburger-close.7610df6f0876379271d6d7b1ed08b6f1.svg",
+    "main.2fd464a8.css.map": "/static/css/main.2fd464a8.css.map",
+    "main.ff4d0a3b.js.map": "/static/js/main.ff4d0a3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fd464a8.css",
+    "static/js/main.ff4d0a3b.js"
+  ]
+}
